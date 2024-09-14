@@ -1,0 +1,71 @@
+.contact {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 255, 0.722);
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 50px 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #333;
+    box-sizing: border-box;
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-box .field {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.input-box .fiel.mess {
+    height: 200px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    height: 55px;
+    background: rgba(0, 0, 255, 0.722);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .5s;
+}
+
+form button:hover {
+    background: rgba(0, 0, 255, 0.722);
+}
